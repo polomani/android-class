@@ -17,7 +17,7 @@ class OctavePath {
     private float yy[];
     OctavePath(int indentX, int indentY) {
         int max = 500;
-        int a = 100;
+        int a = 200;
         xx = new float[max];
         yy = new float[max];
         for (int k = 0; k < max; k++) {
