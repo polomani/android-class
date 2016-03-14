@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
         if (userName != null) {
             ((EditText) findViewById(R.id.editText)).setText(userName);
         }
-        Toast.makeText(this, "Loaded", Toast.LENGTH_LONG).show();
+        Toast.makeText(this, "Loaded: " + userName , Toast.LENGTH_LONG).show();
     }
 
     public void saveToDataset() {
